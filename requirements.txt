@@ -1,7 +1,6 @@
 streamlit
 torch
 pandas
-numpy
-matplotlib
 scikit-learn
-Pillow
+openpyxl
+joblib
