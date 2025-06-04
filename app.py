@@ -5,7 +5,7 @@ import os
 from prediksi_umur_simpan import muat_data, pra_pemrosesan_data, ModelUmurSimpan, prediksi
 
 # Muat ulang data dan model
-file_path_data = os.path.join('..', 'data', 'data_pisang.xlsx')
+file_path_data = 'data_pisang.xlsx'
 df = muat_data(file_path_data)
 X_train, y_train, X_test, y_test, scaler_X, scaler_y = pra_pemrosesan_data(df)
 model = ModelUmurSimpan(4, 16, 8, 1)
